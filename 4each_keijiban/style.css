@@ -1,0 +1,106 @@
+@charset"utf-8";
+header{
+  width: 100%;
+  height: 60px;
+}
+
+.menu ul {
+  list-style: none;
+  width: 100%;
+  height: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.menu li{
+  float: left;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.main-container{
+  margin-top: 10px auto;
+  width: 60%;
+  float: left;
+}
+
+h1{
+  border-left:5px black solid ;
+  border-bottom: 4px solid lightslategray;
+}
+
+form{
+  margin-left: 15px;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 100%;
+}
+
+form div{
+  padding: 15px;
+}
+
+form h2{
+  border-left: 4px red solid;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+.text,textarea{
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+
+.submit{
+  border: 1px solid lightslategray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+}
+
+.article{
+  margin-left: 15px;
+  height: 200px;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  
+}
+
+.article h2{
+  border-bottom: 2px solid #dfdfdf;
+  padding-top: 1px;
+}
+
+.main-container2{
+  float:left;
+  margin: 10px 10px 10px 30px ;
+  }
+.main-container2 h2{
+  border-bottom: 1px dotted black;
+}
+.main-container2 ul{
+  list-style: none;
+  line-height: 40px;
+}
+
+footer{
+  clear: left;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+ margin-top: 10px;
+ padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  line-height: 30px;
+}
